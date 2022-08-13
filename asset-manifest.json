@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.c12c2d56.css",
+    "main.js": "/memory-card/static/js/main.345d1d9d.js",
+    "static/media/skye.png": "/memory-card/static/media/skye.74be271416db272b9b7d.png",
+    "static/media/astra.png": "/memory-card/static/media/astra.752017159cab6f7b0d41.png",
+    "static/media/raze.png": "/memory-card/static/media/raze.8fbfc04fca46ed5982cb.png",
+    "static/media/sova.png": "/memory-card/static/media/sova.94c8e81e717006e705fc.png",
+    "static/media/kayo.png": "/memory-card/static/media/kayo.c1fb22136746f2ddcfd6.png",
+    "static/media/killjoy.png": "/memory-card/static/media/killjoy.75c1b8b88d92b184c684.png",
+    "static/media/yoru.png": "/memory-card/static/media/yoru.fbe81f1e86a84306e4c4.png",
+    "static/media/chamber.png": "/memory-card/static/media/chamber.c19af1d47a9d6e08c0ea.png",
+    "static/media/neon.png": "/memory-card/static/media/neon.d3e3df622c83f55f4f0a.png",
+    "static/media/omen.png": "/memory-card/static/media/omen.65c5484d831847da1c4d.png",
+    "static/media/breach.png": "/memory-card/static/media/breach.c84af42faf8c1d0349bb.png",
+    "static/media/viper.png": "/memory-card/static/media/viper.3e6c897c48633860c53a.png",
+    "static/media/sage.png": "/memory-card/static/media/sage.9932b4c70d0f712d8623.png",
+    "static/media/jett.png": "/memory-card/static/media/jett.940cfd8dd7fbe4c79ffc.png",
+    "static/media/reyna.png": "/memory-card/static/media/reyna.baa604076600e0cd7278.png",
+    "static/media/cypher.png": "/memory-card/static/media/cypher.2230034a1a3d39bfcca1.png",
+    "index.html": "/memory-card/index.html",
+    "main.c12c2d56.css.map": "/memory-card/static/css/main.c12c2d56.css.map",
+    "main.345d1d9d.js.map": "/memory-card/static/js/main.345d1d9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c12c2d56.css",
+    "static/js/main.345d1d9d.js"
+  ]
+}
