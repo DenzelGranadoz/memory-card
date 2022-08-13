@@ -19,12 +19,10 @@ const Main = () => {
 
   const handleGameFlow = (card) => {
     if (markedCards.includes(card)) {
-      console.log('game ovah');
       handleHighScore(score);
       handleReset();
       return;
     }
-    console.log(highScore);
     addCard([...markedCards, card]);
     handleScore();
   };
