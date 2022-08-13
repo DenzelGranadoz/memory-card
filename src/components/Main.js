@@ -1,52 +1,47 @@
 import React, { useState } from 'react';
 import Score from './game/Score';
 import Cards from './game/Cards';
-import Agents from './game/agents';
 
 const Main = () => {
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
-  const [cards, setCards] = useState(Agents);
+  const [markedCards, addCard] = useState([]);
 
-  const handleScore = (card, index) => {
-    if (card.isMarked) {
-      console.log('game ovah');
-      return;
-    }
-
-    setScore(score + 1);
-
-    const newCards = [...cards];
-    newCards[index] = { ...newCards[index], isMarked: true };
-    setCards(newCards);
-
-    // else go out of function and end the game
-    // check handle highscore function
-    // handle reset function
-
-    // shuffle content of array
-
-    // to mark the card
-    // pass the card as a parameter
-    // map thru array in this component, if name matches then
-    // mark the card
+  const handleScore = () => {
+    setScore((prevScore) => prevScore + 1);
   };
 
-  const handleHighScore = () => {
-    // set to score if score is higher than highscore
+  const handleHighScore = (currentScore) => {
+    setHighScore((prevHighScore) => {
+      return currentScore > prevHighScore ? currentScore : prevHighScore;
+    });
+  };
 
-    setHighScore(score);
+  const handleGameFlow = (card) => {
+    if (markedCards.includes(card)) {
+      console.log('game ovah');
+      handleHighScore(score);
+      handleReset();
+      return;
+    }
+    console.log(highScore);
+    addCard([...markedCards, card]);
+    handleScore();
   };
 
   const handleReset = () => {
     setScore(0);
-    setCards([]);
+    addCard([]);
   };
 
   return (
     <div className="game-container">
       <Score score={score} bestScore={highScore} />
-      <Cards cards={cards} handleScore={handleScore} />
+      <Cards
+        score={score}
+        bestScore={highScore}
+        handleGameFlow={handleGameFlow}
+      />
     </div>
   );
 };
