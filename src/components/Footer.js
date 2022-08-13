@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer-contents">
+    <footer className="footer">
+      <div className="footer-contents">
         <span>
           <a href="https://github.com/DenzelGranadoz" target="_blank">
             Made by: Denzel Granadoz
