@@ -28,8 +28,8 @@ const Main = () => {
   };
 
   const handleReset = () => {
-    setScore(0);
     addCard([]);
+    setScore(0);
   };
 
   return (
