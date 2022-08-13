@@ -5,7 +5,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-contents">
         <span>
-          <a href="https://github.com/DenzelGranadoz" target="_blank">
+          <a
+            href="https://github.com/DenzelGranadoz"
+            rel="noreferrer"
+            target="_blank"
+          >
             Made by: Denzel Granadoz
           </a>
         </span>
@@ -13,6 +17,7 @@ const Footer = () => {
         <span>
           <a
             href="https://github.com/DenzelGranadoz/memory-card"
+            rel="noreferrer"
             target="_blank"
           >
             Click me for Source Code
