@@ -3,15 +3,15 @@ This is a simple valorant inspired memory card game where the user can score poi
 
 A [Memory-Card Game](https://www.theodinproject.com/lessons/node-path-javascript-memory-card) project from [The Odin Project](https://www.theodinproject.com). 
 
+## Demo
+> - [Check me out!](https://denzelgranadoz.github.io/memory-card/)
+
+## Screenshots
 Computer View: <img width="1678" alt="image" src="https://user-images.githubusercontent.com/84443588/193394581-204d8d1c-f7a7-43f0-9e71-e73a3138be1f.png">
 
 Tablet View: <img width="1023" alt="image" src="https://user-images.githubusercontent.com/84443588/193394635-700d6def-1717-4a03-a4f2-bb797c319905.png">
 
 Mobile View: <img width="516" alt="image" src="https://user-images.githubusercontent.com/84443588/193394646-2346f331-692c-4a69-8d27-44936cc7d704.png">
-
-
-## Demo
-> - [Check me out!](https://denzelgranadoz.github.io/memory-card/)
 
 ## Built With
 * React JS
